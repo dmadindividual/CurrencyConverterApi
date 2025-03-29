@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 @RequiredArgsConstructor
 public class ConverterService {
     private final WebClient webClient;
-    private static final String API_KEY = "f5a8b02aa97949252e8f4113f5e7e285"; // Replace with your actual key
+    private static final String API_KEY = ""; // Replace with your actual key
     private final RedisTemplate<String, Object> redisTemplate;
     private final ObjectMapper objectMapper;
 
